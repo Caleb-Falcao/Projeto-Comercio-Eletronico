@@ -1,10 +1,6 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+.carousel-tamanho img {
+  width: 100% !important; /* Largura total do contêiner do carrossel */
+  height: 500px !important; /* Altura fixa */
+  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
 }
 
-body {
-  background: #f3e185;
-}
