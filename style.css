@@ -1,6 +1,18 @@
-.carousel-tamanho img {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+.carousel-tamanho img{
   width: 100% !important; /* Largura total do contêiner do carrossel */
   height: 500px !important; /* Altura fixa */
-  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+  /* Garante que a imagem cubra o espaço sem distorcer */
+}
+
+.tamanhoImgCard{
+  width: 100% !important; /* Largura total do contêiner do carrossel */
+  height: 500px !important; /* Altura fixa */
+  object-fit: cover;
 }
 
